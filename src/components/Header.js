@@ -6,11 +6,15 @@ export default function Header() {
   return (
     <div>
       <Link to="/">
-        <Home />
+        <button className="NavButton">
+          Home
+        </button>
       </Link>
-      <Link to="shopping-cart">
-        <ShoppingCart />
+      <Link to="/shopping-cart">
+        <button className="NavButton">
+          Shopping cart
+        </button>
       </Link>
     </div>
-  )
+  );
 }

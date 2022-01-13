@@ -6,19 +6,19 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-      <main>
-        <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <Header />
+        </header>
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shopping-cart" element={<ShoppingCart />} />
           </Routes>
-        </BrowserRouter>
-      </main>
-    </div>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 

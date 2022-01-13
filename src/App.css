@@ -6,3 +6,66 @@
 	font-size: 100%;
 	outline: 0;
 }
+
+html
+{
+	background: linear-gradient(90deg, rgba(125, 196, 196, 0.8), rgb(100, 163, 200), rgba(125, 196, 196, 0.8));
+	background-size: 150%;
+	animation-name: waves;
+	animation-duration: 4s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	background-position: 65%;
+}
+@keyframes waves 
+{
+	0% 
+	{
+		background-position: 0%;
+	}
+	50% 
+	{
+		background-position: 65%;
+	}
+	100% 
+	{
+		background-position: 150%;
+	}
+}
+	header
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 50px;
+	}
+		.NavButton
+		{
+			padding: 5px;
+			margin: 10px;
+		}
+	main
+	{
+		margin-top: 50px;
+	}
+		.Items
+		{
+			display: flex;
+			/* flex-direction: row; */
+			align-items: center;
+			justify-content: center;
+		}
+			.ItemContainer
+			{
+				width: 5em;
+				margin: 10px;
+			}
+				.ItemImage
+				{
+					width: 5em;
+					object-fit: contain;
+				}
+				.ItemDescription
+				{
+					text-align: center;
+				}
