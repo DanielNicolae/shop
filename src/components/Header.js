@@ -4,7 +4,7 @@ import ShoppingCart from "./ShoppingCart";
 
 export default function Header() {
   return (
-    <div>
+    <div className="HeaderContainer">
       <Link to="/">
         <button className="NavButton">
           Home
