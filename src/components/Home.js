@@ -19,6 +19,12 @@ export default function Home() {
       <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
       <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
       <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
+      <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
+      <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
+      <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
+      <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
+      <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
+      <Item image="./large.jpg" imageDesc="Car rim 3D model" description="Car rim design" />
     </div>
   )
 }

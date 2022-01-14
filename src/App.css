@@ -16,6 +16,7 @@ html
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 	background-position: 65%;
+	font-size: 1rem;
 }
 @keyframes waves 
 {
@@ -47,25 +48,29 @@ html
 	main
 	{
 		margin-top: 50px;
+		display: flex;
+		justify-content: center;
 	}
 		.Items
 		{
+			width: 90vw;
 			display: flex;
-			/* flex-direction: row; */
+			flex-wrap: wrap;
 			align-items: center;
-			justify-content: center;
 		}
 			.ItemContainer
 			{
 				width: 5em;
 				margin: 10px;
+				background-color: rgba(255, 255, 255, 0.664);
+				border-radius: 5px;
 			}
 				.ItemImage
 				{
+					border-radius: 5px 5px 0 0;
 					width: 5em;
-					object-fit: contain;
 				}
 				.ItemDescription
 				{
-					text-align: center;
+					
 				}
